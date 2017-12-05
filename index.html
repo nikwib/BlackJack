@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./styles/index.css">
+    <script src="./js/index.js"></script>    
+    <title>♠ Black Jack ♠</title>
+</head>
+<body>
+    <main id="main">
+        <img src="http://deckofcardsapi.com/static/img/blackjack2.png" class="card-image">
+        <h1>♠ Black Jack </h1>        
+
+        <div id="start">
+            <div id="welcome" class="welcome">
+                <div id="welcomeMsg"></div>
+                <p><button id="go"> Let's play!</button></p>                
+            </div>
+        </div>
+        <div id="playingField">
+            <div id="dealer" class="playingField">
+                <p>Dealer hand: </p>
+                <div id="dealerHand"> </div>                 
+                <div id="dealerSum">  </div>                
+            </div>
+            <div id="player" class="playingField">
+                <p>Player hand: </p>
+                <div id="playerHand"></div> 
+                <div id="playerSum"> </div>                
+                <br>
+                <button id="hit">Hit</button>
+                <button id="stand">Stand</button>
+            </div>
+            <div id="result" class="result">
+                <div id="resultMsg"></div>
+                <p><button id="goAgain"> Let's play again!</button></p>
+            </div>    
+        </div>  
+    </main>
+</body>
+</html>

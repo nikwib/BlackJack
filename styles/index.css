@@ -1,0 +1,41 @@
+
+body {   
+    height: 10em;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: #1A4A1C;
+    color: rgb(238, 241, 238);       
+}
+
+h1 {
+    text-align: center;    
+    color: rgb(0, 0, 0);
+}
+
+#playingField {
+    width: 600px;
+    padding: 2px;
+    margin: 2px;
+}
+
+#dealer, #player{
+    border-radius: 25px;    
+    width: 500px;
+    border: 5px solid rgb(10, 100, 56);
+    padding: 25px;
+    margin: 25px;
+}
+
+.result, .welcome{
+    text-align: center;
+}
+
+.card-image {
+    width: 100px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
