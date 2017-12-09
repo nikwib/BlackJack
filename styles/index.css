@@ -14,6 +14,7 @@ h1 {
     text-align: center;    
     color: rgb(0, 0, 0);
     text-decoration-line: overline;
+    text-shadow: 1px 1px 5px rgb(117, 115, 115);   
 }
 
 #playingField {
