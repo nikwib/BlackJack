@@ -16,17 +16,17 @@ h1 {
 }
 
 #playingField {
-    width: 600px;
+    width: 36em;
     padding: 2px;
     margin: 2px;
 }
 
 #dealer, #player{
-    border-radius: 25px;    
-    width: 500px;
+    border-radius: 1em;    
+    width: 31em;
     border: 5px solid rgb(10, 100, 56);
-    padding: 25px;
-    margin: 25px;
+    padding: 1em;
+    margin: 1em;
 }
 
 .result, .welcome{
@@ -38,4 +38,6 @@ h1 {
     position: absolute;
     right: 0px;
     top: 0px;
+    z-index: 1;
+    
 }
